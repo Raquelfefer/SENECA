@@ -76,7 +76,7 @@ create table tutor_curso (
 
 create table asignatura (
 	id_asignatura int primary key auto_increment,
-    nombre varchar(20) unique not null,
+    nombre varchar(100) unique not null,
     descripcion text,
     horas int
 );
