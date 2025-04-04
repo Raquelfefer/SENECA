@@ -10,7 +10,33 @@ select a.* from alumno a
 where c.nombre = 'IES Los Alcores';
 
 -- Nota media del RA1 de la asignatura “Bases de datos” por cada alumno
+select avg(nota), al.id_alumno from seguimiento s
+	join asignatura_matricula am on am.id_asig_mat = s.asignatura_matr
+    join matricula m on m.id_matricula = am.matricula
+    join alumno al on al.id_alumno = m.alumno
+    join ce on ce.id_ce = s.ce
+    join ra on ra.id_ra = ce.ra
+    join asignatura asig on asig.id_asignatura = ra.asignatura
+where asig.nombre = 'Bases de Datos' 
+	and id_ra = (
+		select min(id_ra) from ra
+			where asignatura = (
+				select id_asignatura from asignatura
+                where nombre = 'Bases de Datos')
+                )
+group by al.id_alumno;
 
+
+
+select distinct s.ce from seguimiento s
+	join ce on ce.id_ce = s.ce;
+
+select id_ce from ce
+	join ra on ra.id_ra = ce.ra
+	join asignatura a on a.id_asignatura = ra.asignatura
+where a.nombre = 'Bases de Datos';
+
+select * from ce;
 
 -- Nombre y apellidos del alumno que ha obtenido mayor nota en cualquier criterio de
 -- evaluación de cualquier módulo profesional (o asignatura)
