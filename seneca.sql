@@ -143,7 +143,6 @@ create table seguimiento (
     tarea int,
     ce int,
     nota double,
-    ponderacion double,
     observaciones text,
     asignatura_matr int,
 	constraint fk_seguimiento_tarea foreign key (tarea) references tarea (id_tarea),

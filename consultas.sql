@@ -9,40 +9,7 @@ select a.* from alumno a
     join centro c on c.id_centro = ofer.centro
 where c.nombre = 'IES Los Alcores';
 
-
-
 -- Nota media del RA1 de la asignatura “Bases de datos” por cada alumno
-select
-    al.id_alumno,
-    round(avg(s.nota),2) as nota_media
-FROM 
-    seguimiento s
-JOIN 
-    asignatura_matricula am ON s.asignatura_matr = am.id_asig_mat
-JOIN 
-    matricula m ON am.matricula = m.id_matricula
-JOIN 
-    asignatura_curso ac ON am.asignatura = ac.id_asig_curso
-JOIN 
-    asignatura a ON ac.asignatura = a.id_asignatura
-JOIN 
-    ra r ON r.asignatura = a.id_asignatura
-JOIN 
-    alumno al ON m.alumno = al.id_alumno
-WHERE 
-    a.nombre = 'Bases de datos'  
-    AND r.id_ra = (  
-        SELECT MIN(id_ra) 
-        FROM ra 
-        WHERE asignatura = (
-			SELECT id_asignatura 
-            FROM asignatura WHERE nombre = 'Bases de datos')
-    )
-GROUP BY 
-    al.id_alumno, r.id_ra
-ORDER BY 
-    al.id_alumno;
-
 
 
 -- Nombre y apellidos del alumno que ha obtenido mayor nota en cualquier criterio de
