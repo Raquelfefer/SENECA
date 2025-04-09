@@ -74,7 +74,7 @@ INSERT INTO profesor (id_profesor, especialidad) VALUES
 
 INSERT INTO tutor_legal (id_tutor) VALUES
 (1), (2), (3), (4), (6), (9), (10), (12), (15), (17),
-(18), (20), (41), (42), (43), (44), (45), (46), (47), (48);
+(18), (20), (43), (44), (45), (46), (47), (48);
 
 INSERT INTO alumno (id_alumno, tutor_1, tutor_2, emancipado) VALUES
 (5, 1, 2, false),
@@ -83,7 +83,7 @@ INSERT INTO alumno (id_alumno, tutor_1, tutor_2, emancipado) VALUES
 (11, 10, 12, false),
 (13, 15, 17, false),
 (14, 18, 20, false),
-(16, 41, NULL, false),  
+(16, 43, NULL, false),  
 (19, 43, 44, false),
 (21, 45, 46, false),
 (22, 47, NULL, false), 
@@ -94,7 +94,7 @@ INSERT INTO alumno (id_alumno, tutor_1, tutor_2, emancipado) VALUES
 (27, 15, 18, false),
 (28, 17, NULL, false), 
 (29, NULL, NULL, true),  
-(30, 42, 44, false),
+(30, 43, 44, false),
 (31, 45, 47, false),
 (32, 46, 48, false),
 (33, NULL, NULL, true),   
@@ -110,7 +110,7 @@ INSERT INTO alumno (id_alumno, tutor_1, tutor_2, emancipado) VALUES
 (57, NULL, NULL, true), 
 (58, 18, 20, false),
 (59, NULL, NULL, true),
-(60, 41, NULL, false);
+(60, 17, NULL, false);
 
 INSERT INTO centro (cod_centro, direccion, nombre, denominacion, telefono, email) VALUES
 ('41001001', 'Av. de la Borbolla 1, Sevilla', 'IES Los Alcores', 'Instituto de Educación Secundaria', '954123456', 'ies.velazquez@educaand.es'),
@@ -990,143 +990,212 @@ INSERT INTO tarea (nombre_tarea, descripcion) VALUES
 ('Trabajo práctico Tema 4', 'Elaborar un informe sobre las prácticas sostenibles en la industria tecnológica y cómo pueden aplicarse en el ciclo de vida de un producto.'),
 ('Evaluación práctica Tema 5', 'Desarrollar un proyecto de aplicación móvil que promueva prácticas de sostenibilidad y concienciación ecológica en usuarios.');
 
-INSERT INTO seguimiento (tarea, ce, nota, observaciones, asignatura_matr) VALUES
-(1, 1, 7.5, 'Instalación correcta', 1), 
-(2, 3, 8.0, 'Simulación completa', 1),  
-(3, 4, 6.5, 'Diseño inicial', 1),      
-(4, 5, 7.0, 'Consultas básicas', 1), 
-(5, 6, 8.0, 'Código funcional', 1),      
-(6, 7, 7.5, 'Pruebas básicas', 1),      
-(7, 8, 9.0, 'Estructura bien definida', 1),  
-(8, 9, 8.5, 'Estilos aplicados', 1),    
-(9, 10, 7.0, 'IDE configurado', 1),      
-(10, 11, 6.5, 'Control inicial', 1),     
-(13, 14, 8.0, 'Análisis detallado', 1),    
-(14, 15, 7.5, 'Propuestas concretas', 1), 
-(1, 1, 8.0, 'Instalación correcta', 2),   
-(2, 3, 7.5, 'Simulación completa', 2),  
-(3, 4, 9.0, 'Diseño optimizado', 2),      
-(4, 5, 8.5, 'Consultas eficientes', 2),   
-(5, 6, 7.0, 'Código limpio', 2),         
-(6, 7, 6.5, 'Pruebas exhaustivas', 2),    
-(7, 8, 8.5, 'Estructura clara', 2),       
-(8, 9, 8.0, 'Estilos creativos', 2),     
-(9, 10, 9.0, 'IDE optimizado', 2),       
-(10, 11, 8.5, 'Control avanzado', 2),     
-(13, 14, 7.0, 'Análisis detallado', 2),    
-(14, 15, 6.5, 'Propuestas viables', 2),
-(1, 1, 9.0, 'Instalación completa', 3),  
-(2, 3, 8.5, 'Simulación eficiente', 3),  
-(3, 4, 7.0, 'Diseño bien estructurado', 3), 
-(4, 5, 6.5, 'Consultas optimizadas', 3), 
-(5, 6, 8.5, 'Código documentado', 3),    
-(6, 7, 8.0, 'Pruebas automatizadas', 3),   
-(7, 8, 7.0, 'Estructura semántica', 3),    
-(8, 9, 6.5, 'Estilos coherentes', 3),     
-(9, 10, 8.0, 'IDE personalizado', 3),      
-(10, 11, 7.5, 'Control riguroso', 3),     
-(13, 14, 6.5, 'Análisis profundo', 3),     
-(14, 15, 9.0, 'Propuestas innovadoras', 3),  
-(1, 1, 7.5, 'Instalación correcta', 1),   
-(2, 3, 8.0, 'Simulación completa', 1),   
-(3, 4, 6.5, 'Diseño inicial', 2),        
-(4, 5, 7.0, 'Consultas básicas', 2),     
-(5, 6, 8.0, 'Código funcional', 3),      
-(6, 7, 7.5, 'Pruebas básicas', 3),       
-(7, 8, 9.0, 'Estructura bien definida', 4),  
-(8, 9, 8.5, 'Estilos aplicados', 4),    
-(9, 10, 7.0, 'IDE configurado', 5),     
-(10, 11, 6.5, 'Control inicial', 5),      
-(11, 12, 8.0, 'CV bien estructurado', 6),    
-(12, 13, 7.5, 'Entrevista correcta', 6),    
-(13, 14, 8.0, 'Análisis detallado', 7),   
-(14, 15, 7.5, 'Propuestas concretas', 7),
-(1, 1, 8.0, 'Instalación correcta', 8),  
-(2, 3, 7.5, 'Simulación completa', 8),  
-(3, 4, 9.0, 'Diseño optimizado', 9),      
-(4, 5, 8.5, 'Consultas eficientes', 9),    
-(5, 6, 7.0, 'Código limpio', 10),          
-(6, 7, 6.5, 'Pruebas exhaustivas', 10),    
-(7, 8, 8.5, 'Estructura clara', 11),       
-(8, 9, 8.0, 'Estilos creativos', 11),     
-(9, 10, 9.0, 'IDE optimizado', 12),       
-(10, 11, 8.5, 'Control avanzado', 12),     
-(11, 12, 7.0, 'CV bien estructurado', 13),   
-(12, 13, 6.5, 'Entrevista correcta', 13),    
-(13, 14, 7.0, 'Análisis detallado', 14),    
-(14, 15, 6.5, 'Propuestas viables', 14),    
-(1, 1, 9.0, 'Instalación completa', 15),   
-(2, 3, 8.5, 'Simulación eficiente', 15),  
-(3, 4, 7.0, 'Diseño bien estructurado', 16), 
-(4, 5, 6.5, 'Consultas optimizadas', 16), 
-(5, 6, 8.5, 'Código documentado', 17),    
-(6, 7, 8.0, 'Pruebas automatizadas', 17),   
-(7, 8, 7.0, 'Estructura semántica', 18),    
-(8, 9, 6.5, 'Estilos coherentes', 18),  
-(9, 10, 8.0, 'IDE personalizado', 19),     
-(10, 11, 7.5, 'Control riguroso', 19),     
-(11, 12, 6.5, 'CV bien estructurado', 20),    
-(12, 13, 9.0, 'Entrevista correcta', 20),     
-(13, 14, 6.5, 'Análisis profundo', 21),     
-(14, 15, 9.0, 'Propuestas innovadoras', 21),  
-(2, 3, 6.8, 'Simulación básica', 46),         
-(4, 5, 7.2, 'Consultas iniciales', 47),    
-(6, 7, 8.1, 'Pruebas incompletas', 48),      
-(8, 9, 9.0, 'Estilos originales', 49),      
-(10, 11, 8.5, 'Control bien usado', 50),      
-(12, 13, 7.0, 'Simulación ok', 51),         
-(14, 15, 6.5, 'Poco concreto', 52),
-(1, 1, 8.2, 'Instalación correcta', 53),       
-(3, 4, 7.9, 'Diseño bien hecho', 54),        
-(5, 6, 6.8, 'Código legible', 55),          
-(7, 8, 8.8, 'Estructura semántica', 56),       
-(9, 10, 9.2, 'IDE configurado', 57),        
-(11, 12, 8.1, 'CV completo', 58),           
-(13, 14, 7.9, 'Análisis correcto', 59),
-(2, 3, 9.0, 'Simulación avanzada', 60),       
-(4, 5, 8.5, 'Consultas optimizadas', 61),    
-(6, 7, 7.2, 'Pruebas automatizadas', 62),    
-(8, 9, 6.8, 'Estilos consistentes', 63),     
-(10, 11, 7.9, 'Control exhaustivo', 64),    
-(12, 13, 8.2, 'Entrevista fluida', 65),       
-(14, 15, 9.0, 'Propuesta viable', 66),
-(1, 1, 6.5, 'Instalación básica', 67),       
-(3, 4, 7.0, 'Diseño inicial', 68),        
-(5, 6, 8.0, 'Código limpio', 69),         
-(7, 8, 7.5, 'Estructura correcta', 70),    
-(9, 10, 9.0, 'IDE configurado', 71),       
-(11, 12, 8.5, 'CV estructurado', 72),          
-(13, 14, 7.0, 'Análisis completo', 73),
-(2, 3, 8.0, 'Simulación completa', 74),       
-(4, 5, 6.5, 'Consultas lentas', 75),           
-(6, 7, 7.0, 'Pruebas incompletas', 76),       
-(8, 9, 8.0, 'Estilos originales', 77),    
-(10, 11, 7.5, 'Control inicial', 78),   
-(12, 13, 9.0, 'Entrevista fluida', 79),      
-(14, 15, 8.5, 'Propuesta creativa', 80),
-(1, 1, 9.0, 'Instalación óptima', 81),        
-(3, 4, 8.0, 'Diseño bien hecho', 82),         
-(5, 6, 6.5, 'Código claro', 83),          
-(7, 8, 7.0, 'Estructura semántica', 84),      
-(9, 10, 8.0, 'IDE personalizado', 85),         
-(11, 12, 7.5, 'CV detallado', 86),            
-(13, 14, 9.0, 'Análisis profundo', 87),
-(1, 1, 8.2, 'Instalación correcta y rápida', 158),
-(3, 4, 7.9, 'Diseño funcional', 159),
-(5, 6, 8.0, 'Código eficiente', 160),
-(7, 8, 6.9, 'Estructura inicial', 161),
-(9, 10, 7.5, 'IDE configurado con éxito', 162),
-(11, 12, 8.3, 'CV completo', 163),
-(13, 14, 6.8, 'Análisis preliminar', 164),
-(2, 3, 9.2, 'Simulación avanzada', 165),
-(4, 5, 7.1, 'Consultas optimizadas', 166),
-(6, 7, 7.8, 'Pruebas de funcionamiento', 167),
-(8, 9, 6.7, 'Estilos bien aplicados', 168),
-(10, 11, 7.9, 'Control detallado', 169),
-(12, 13, 8.4, 'Entrevista correcta', 170),
-(14, 15, 8.0, 'Propuesta concisa', 171);
+INSERT INTO tarea (nombre_tarea, descripcion, asignatura) VALUES
+-- Sistemas Informáticos
+('Montaje de red local', 'Configurar una red LAN simulando una pequeña empresa.', 1),
+('Instalación de SO', 'Instalar y configurar un sistema operativo de escritorio.', 1),
+('Gestión de usuarios', 'Crear y gestionar cuentas de usuario en Windows y Linux.', 1),
+('Configuración de red', 'Asignar IPs manualmente y verificar la conectividad.', 1),
+
+-- Bases de Datos
+('Modelado de base de datos', 'Diseñar un modelo entidad-relación para un sistema escolar.', 2),
+('Consultas SQL básicas', 'Crear SELECTs para extraer información de tablas.', 2),
+('Normalización de datos', 'Aplicar 1NF, 2NF y 3NF a una base de datos ejemplo.', 2),
+('Procedimientos almacenados', 'Crear y probar procedimientos en MySQL.', 2),
+
+-- Programación
+('Juego en Java', 'Crear un juego de adivinanza de números.', 3),
+('POO básica', 'Crear clases y objetos para un sistema de biblioteca.', 3),
+('Gestión de excepciones', 'Implementar try/catch en programas con errores comunes.', 3),
+('Lectura de ficheros', 'Leer y procesar datos desde archivos de texto.', 3),
+
+-- Lenguaje de Marcas
+('Formulario HTML', 'Diseñar un formulario de contacto con HTML5.', 4),
+('Estilos CSS', 'Aplicar estilos a una página con CSS externo.', 4),
+('Documento XML', 'Crear un archivo XML con información de libros.', 4),
+('Conversión XML a HTML', 'Usar XSLT para mostrar datos XML en HTML.', 4),
+
+-- Entornos de Desarrollo
+('Instalación de IDE', 'Instalar y configurar Visual Studio Code.', 5),
+('Depuración de código', 'Usar herramientas de depuración en un proyecto Java.', 5),
+('Gestión de versiones', 'Subir un proyecto a GitHub usando Git.', 5),
+('Documentación técnica', 'Generar documentación con Javadoc.', 5),
+
+-- Itinerario personal para la empleabilidad I
+('Currículum vitae', 'Crear un CV profesional en formato digital.', 6),
+('Simulación de entrevista', 'Participar en una entrevista laboral simulada.', 6),
+('Prevención de riesgos', 'Identificar riesgos en el entorno laboral y cómo evitarlos.', 6),
+('Derechos laborales', 'Analizar derechos y deberes del trabajador.', 6),
+
+-- Desarrollo Web Entorno Cliente
+('Validación de formularios', 'Validar entradas de usuario con JavaScript.', 7),
+('Manipulación del DOM', 'Modificar elementos de una página con JS.', 7),
+('Eventos en JavaScript', 'Capturar y gestionar eventos como clics o teclado.', 7),
+('Uso de fetch', 'Consumir una API REST usando fetch.', 7),
+
+-- Desarrollo Web Entorno Servidor
+('Formulario con PHP', 'Procesar datos de un formulario HTML con PHP.', 8),
+('CRUD en PHP', 'Crear, leer, actualizar y eliminar registros en MySQL.', 8),
+('Autenticación de usuarios', 'Implementar login y registro de usuarios con sesiones.', 8),
+('Subida de archivos', 'Crear un sistema que permita subir imágenes al servidor.', 8),
+
+-- Diseño de Interfaces Web
+('Maquetación con Flexbox', 'Diseñar una interfaz adaptable usando Flexbox.', 9),
+('Accesibilidad web', 'Aplicar buenas prácticas de accesibilidad.', 9),
+('Prototipo UI', 'Diseñar un prototipo de interfaz en Figma.', 9),
+('Estilos responsivos', 'Crear una interfaz que se adapte a diferentes pantallas.', 9),
+
+-- Despliegue de Aplicaciones Web
+('Servidor local', 'Configurar un entorno de servidor local con XAMPP.', 10),
+('Publicación en hosting', 'Subir una web a un servicio de hosting gratuito.', 10),
+('Configuración de DNS', 'Asociar un dominio a una aplicación web.', 10),
+('Automatización de despliegue', 'Crear un script para desplegar una app con Git.', 10),
+
+-- Itinerario personal para la empleabilidad II
+('Plan de empresa', 'Desarrollar un plan básico para una idea de negocio.', 11),
+('Estudio de mercado', 'Realizar un análisis de competencia y demanda.', 11),
+('Gestión económica', 'Simular gastos e ingresos de una microempresa.', 11),
+('Taller de emprendimiento', 'Presentar un pitch de proyecto personal.', 11),
+
+-- Inglés Técnico
+('Glosario técnico', 'Crear un glosario con 50 términos informáticos en inglés.', 12),
+('Lectura de manuales', 'Analizar un manual de software en inglés.', 12),
+('Traducción técnica', 'Traducir documentación de una librería o API.', 12),
+('Listening IT', 'Escuchar una conferencia técnica y resumirla.', 12),
+
+-- Proyecto DAW
+('Propuesta de proyecto', 'Redactar la idea y objetivos del proyecto final.', 13),
+('Planificación', 'Establecer un cronograma de trabajo por fases.', 13),
+('Desarrollo del backend', 'Crear la parte funcional de la app con base de datos.', 13),
+('Pruebas y presentación', 'Realizar pruebas finales y preparar una demo.', 13),
+
+-- Digitalización
+('Diagnóstico digital', 'Evaluar el nivel de digitalización de una empresa.', 14),
+('Transformación digital', 'Diseñar una propuesta para digitalizar procesos manuales.',14),
+('Herramientas en la nube', 'Explorar herramientas como Google Workspace o Microsoft 365.', 14),
+('Digitalización documental', 'Digitalizar documentos físicos y organizarlos en la nube.', 14),
+
+-- Sostenibilidad
+('Huella de carbono TIC', 'Investigar el impacto ambiental de las tecnologías.', 15),
+('Código verde', 'Escribir código eficiente para reducir consumo de recursos.', 15),
+('Ecodiseño web', 'Diseñar una página web con criterios ecológicos.', 15),
+('Concienciación ambiental', 'Crear una campaña digital sobre sostenibilidad.', 15);
 
 
+drop procedure if exists carga_seguimiento;
+
+delimiter $$
+
+create procedure carga_seguimiento()
+begin
+    declare nota decimal(4,2) default 0.0;
+    declare v_alumno_id int;
+    declare v_asig_mat_id int;
+    declare v_tarea_id int;
+    declare v_ce_id int;
+    declare v_asignatura_id int;
+    
+   
+    declare fin_alumnos bool default false;
+    declare fin_asignaturas bool default false;
+    declare fin_tareas bool default false;
+    declare fin_ce bool default false;
 
 
+    declare alumno_cur cursor for 
+        select id_alumno from alumno;
+        
+    declare continue handler for not found set fin_alumnos = true;
+
+    open alumno_cur;
+    recorre_alumnos: loop
+        fetch alumno_cur into v_alumno_id;
+        if fin_alumnos then leave recorre_alumnos; end if;
+
+      
+        block_asignaturas: begin
+            declare asig_mat_cur cursor for 
+                select am.id_asig_mat, ac.asignatura 
+                from asignatura_matricula am
+                join asignatura_curso ac on am.asignatura = ac.id_asig_curso
+                where am.matricula in (
+                    select id_matricula 
+                    from matricula 
+                    where alumno = v_alumno_id
+                );
+                
+            declare continue handler for not found set fin_asignaturas = true;
+            
+            open asig_mat_cur;
+            recorre_asignaturas: loop
+                fetch asig_mat_cur into v_asig_mat_id, v_asignatura_id;
+                if fin_asignaturas then 
+                    set fin_asignaturas = false;
+                    leave recorre_asignaturas; 
+                end if;
+
+               
+                block_tareas: begin
+                    declare tarea_cur cursor for 
+                        select id_tarea 
+                        from tarea 
+                        where asignatura = v_asignatura_id;
+                        
+                    declare continue handler for not found set fin_tareas = true;
+                    
+                    open tarea_cur;
+                    recorre_tareas: loop
+                        fetch tarea_cur into v_tarea_id;
+                        if fin_tareas then 
+                            set fin_tareas = false;
+                            leave recorre_tareas;
+                        end if;
+
+                       
+                        block_ce: begin
+                            declare ce_cur cursor for 
+                                select c.id_ce 
+                                from ce c
+                                join ra r on c.ra = r.id_ra
+                                where r.asignatura = v_asignatura_id;
+                                
+                            declare continue handler for not found set fin_ce = true;
+                            
+                            open ce_cur;
+                            recorre_ce: loop
+                                fetch ce_cur into v_ce_id;
+                                if fin_ce then 
+                                    set fin_ce = false;
+                                    leave recorre_ce;
+                                end if;
+                                
+                                set nota = round(rand() * 10, 2);
+                                insert into seguimiento values (
+                                    null, 
+                                    v_tarea_id, 
+                                    v_ce_id, 
+                                    nota, 
+                                    'evaluación automática', 
+                                    v_asig_mat_id
+                                );
+                            end loop;
+                            close ce_cur;
+                        end;
+
+                    end loop;
+                    close tarea_cur;
+                end;
+
+            end loop;
+            close asig_mat_cur;
+        end;
+
+    end loop;
+    close alumno_cur;
+
+end$$
+
+delimiter ;
+
+call carga_seguimiento();
 
