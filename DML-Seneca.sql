@@ -914,83 +914,6 @@ INSERT INTO CE (Descripcion, Ponderacion, RA) VALUES
 
 
 INSERT INTO tarea (nombre_tarea, descripcion) VALUES
-('Examen práctico Tema 1', 'Realizar una instalación de hardware básico y comprobar su correcto funcionamiento en un entorno de pruebas.'),
-('Examen teórico Tema 2', 'Responder preguntas sobre los tipos de software y su relación con el hardware en un sistema informático.'),
-('Prueba práctica Tema 3', 'Configurar una red local, asegurando la comunicación entre dispositivos utilizando switches y routers.'),
-('Trabajo práctico Tema 4', 'Realizar la configuración de un sistema operativo desde cero, instalando y configurando sus controladores y software básico.'),
-('Evaluación práctica Tema 5', 'Diagnosticar y reparar una falla de hardware en un sistema informático, identificando los componentes defectuosos.'),
-('Examen práctico Tema 1', 'Diseñar una base de datos para una tienda online, creando tablas para productos, clientes y pedidos.'),
-('Examen teórico Tema 2', 'Explicar las diferencias entre una clave primaria, clave ajena y su relación en bases de datos.'),
-('Prueba práctica evaluable Tema 3', 'Escribir consultas SQL para obtener los productos más vendidos y los clientes frecuentes de la base de datos.'),
-('Trabajo práctico Tema 4', 'Crear procedimientos almacenados en SQL para realizar operaciones de inserción y actualización en la base de datos.'),
-('Evaluación práctica Tema 5', 'Implementar un sistema de gestión de bases de datos con herramientas como MySQL o PostgreSQL y realizar una migración de datos.'),
-('Examen práctico Tema 1', 'Desarrollar una clase en Java que modele una cuenta bancaria con métodos para depositar y retirar dinero.'),
-('Examen teórico Tema 2', 'Explicar los principios de la programación orientada a objetos: encapsulamiento, herencia, polimorfismo y abstracción.'),
-('Prueba práctica evaluable Tema 3', 'Crear un programa en Python que utilice clases y objetos para gestionar una biblioteca de libros.'),
-('Trabajo práctico Tema 4', 'Desarrollar un sistema de gestión de empleados utilizando Java, implementando una jerarquía de clases.'),
-('Evaluación práctica Tema 5', 'Implementar un proyecto de software en C# utilizando los principios de la programación orientada a objetos y patrones de diseño.'),
-('Examen práctico Tema 1', 'Crear una página web básica con HTML5, incluyendo estructuras como formularios, tablas y enlaces.'),
-('Examen teórico Tema 2', 'Explicar la diferencia entre HTML y XML, y los usos de cada uno en el desarrollo web.'),
-('Prueba práctica evaluable Tema 3', 'Desarrollar una hoja de estilo en CSS para una página web que incluya clases, IDs y pseudo-clases.'),
-('Trabajo práctico Tema 4', 'Diseñar una página web accesible utilizando técnicas de diseño web adaptativo (responsive design) en CSS.'),
-('Evaluación práctica Tema 5', 'Crear un archivo XML para almacenar información sobre productos y utilizarlo en una página web mediante JavaScript.'),
-('Examen práctico Tema 1', 'Instalar y configurar un entorno de desarrollo integrado (IDE) para Java, como IntelliJ IDEA o Eclipse.'),
-('Examen teórico Tema 2', 'Explicar la importancia del control de versiones en el desarrollo de software y cómo utilizar Git para gestionarlo.'),
-('Prueba práctica evaluable Tema 3', 'Desarrollar una pequeña aplicación en Python utilizando un entorno de desarrollo adecuado, como PyCharm o Visual Studio Code.'),
-('Trabajo práctico Tema 4', 'Configurar un entorno de desarrollo colaborativo utilizando GitHub y realizar un fork y pull request.'),
-('Evaluación práctica Tema 5', 'Crear un entorno de desarrollo con Docker para contenerizar una aplicación web de ejemplo.'),
-('Examen práctico Tema 1', 'Crear un plan de seguridad laboral para un entorno de trabajo en el que se desarrollen aplicaciones informáticas.'),
-('Examen teórico Tema 2', 'Explicar los derechos y deberes de los trabajadores según la legislación laboral vigente en el sector tecnológico.'),
-('Prueba práctica evaluable Tema 3', 'Simular una entrevista de trabajo en inglés, enfocada en un puesto de desarrollador web.'),
-('Trabajo práctico Tema 4', 'Desarrollar un plan de formación continua para el personal en el ámbito de la tecnología y el desarrollo de software.'),
-('Evaluación práctica Tema 5', 'Elaborar un plan de prevención de riesgos laborales para un espacio de trabajo relacionado con el desarrollo de software.'),
-('Examen práctico Tema 1', 'Desarrollar una página web interactiva utilizando JavaScript para realizar operaciones con formularios.'),
-('Examen teórico Tema 2', 'Explicar las principales funciones y métodos de JavaScript para manipular el DOM (Document Object Model).'),
-('Prueba práctica evaluable Tema 3', 'Crear un proyecto en JavaScript que permita interactuar con el usuario mediante eventos y validación de formularios.'),
-('Trabajo práctico Tema 4', 'Desarrollar una aplicación web dinámica utilizando AJAX para cargar datos sin necesidad de recargar la página.'),
-('Evaluación práctica Tema 5', 'Implementar un sistema de autenticación en una página web utilizando JavaScript y cookies.'),
-('Examen práctico Tema 1', 'Desarrollar una aplicación web básica con PHP que gestione sesiones de usuario y guarde datos en una base de datos MySQL.'),
-('Examen teórico Tema 2', 'Explicar cómo funciona el ciclo de vida de una petición HTTP en un servidor web y cómo se procesa en PHP.'),
-('Prueba práctica evaluable Tema 3', 'Crear un sistema de gestión de contenidos utilizando PHP y MySQL, permitiendo la creación, edición y eliminación de entradas.'),
-('Trabajo práctico Tema 4', 'Desarrollar una API RESTful en PHP que permita realizar operaciones CRUD sobre una base de datos.'),
-('Evaluación práctica Tema 5', 'Desarrollar una aplicación de servidor en Java utilizando Spring Boot para procesar peticiones HTTP y gestionar datos.'),
-('Examen práctico Tema 1', 'Diseñar una interfaz web accesible utilizando los principios de diseño inclusivo y validación de accesibilidad.'),
-('Examen teórico Tema 2', 'Explicar los principios de usabilidad y accesibilidad en el diseño de interfaces web.'),
-('Prueba práctica evaluable Tema 3', 'Desarrollar una página web con diseño adaptativo (responsive) que funcione bien en dispositivos móviles y de escritorio.'),
-('Trabajo práctico Tema 4', 'Crear una maqueta de interfaz de usuario utilizando herramientas de diseño como Adobe XD o Figma.'),
-('Evaluación práctica Tema 5', 'Implementar una barra de navegación accesible en una página web utilizando HTML y CSS.'),
-('Examen práctico Tema 1', 'Desplegar una aplicación web en un servidor utilizando herramientas como Apache o Nginx.'),
-('Examen teórico Tema 2', 'Explicar los conceptos básicos de DevOps y cómo se aplican en el despliegue de aplicaciones web.'),
-('Prueba práctica evaluable Tema 3', 'Configurar un entorno de producción para una aplicación web, incluyendo la integración de bases de datos y servidores.'),
-('Trabajo práctico Tema 4', 'Realizar la configuración de un entorno de despliegue continuo utilizando herramientas como Jenkins o GitLab CI/CD.'),
-('Evaluación práctica Tema 5', 'Desplegar una aplicación web en un servicio en la nube, como AWS o Heroku, configurando los recursos necesarios.'),
-('Examen práctico Tema 1', 'Elaborar un plan de negocios para una empresa tecnológica, incluyendo aspectos como el mercado objetivo, la propuesta de valor y la estrategia financiera.'),
-('Examen teórico Tema 2', 'Explicar los diferentes tipos de estructuras legales para empresas y sus ventajas y desventajas.'),
-('Prueba práctica evaluable Tema 3', 'Desarrollar un plan de marketing digital para una empresa emergente en el sector tecnológico.'),
-('Trabajo práctico Tema 4', 'Crear una propuesta de financiación para una startup tecnológica, considerando fuentes de inversión como fondos de capital riesgo.'),
-('Evaluación práctica Tema 5', 'Desarrollar un análisis FODA (Fortalezas, Oportunidades, Debilidades y Amenazas) para una empresa tecnológica ficticia.'),
-('Examen práctico Tema 1', 'Traducir un conjunto de instrucciones técnicas de programación del inglés al español, asegurando que el significado técnico se conserve.'),
-('Examen teórico Tema 2', 'Responde preguntas sobre los términos más comunes utilizados en el desarrollo de software en inglés, como variables, clases y funciones.'),
-('Prueba práctica evaluable Tema 3', 'Escribir un documento técnico en inglés explicando cómo implementar un algoritmo de búsqueda binaria en un lenguaje de programación.'),
-('Trabajo práctico Tema 4', 'Realizar una presentación en inglés sobre las mejores prácticas en desarrollo web, utilizando vocabulario técnico adecuado.'),
-('Evaluación práctica Tema 5', 'Desarrollar un pequeño proyecto en equipo donde los comentarios y la documentación estén completamente en inglés técnico.'),
-('Examen práctico Tema 1', 'Desarrollar una aplicación web completa que integre front-end y back-end, y que sea capaz de gestionar usuarios y datos.'),
-('Examen teórico Tema 2', 'Redactar un informe técnico detallado sobre la arquitectura y tecnologías utilizadas en el proyecto final de desarrollo web.'),
-('Prueba práctica evaluable Tema 3', 'Presentar el prototipo de la aplicación web, mostrando el flujo de trabajo y las funcionalidades principales.'),
-('Trabajo práctico Tema 4', 'Implementar pruebas de funcionalidad y usabilidad en el proyecto, documentando los resultados y posibles mejoras.'),
-('Evaluación práctica Tema 5', 'Defender el proyecto frente a un jurado, explicando las decisiones técnicas y de diseño tomadas durante el desarrollo.'),
-('Examen práctico Tema 1', 'Desarrollar un plan de digitalización para una pequeña empresa, integrando herramientas tecnológicas para mejorar su productividad.'),
-('Examen teórico Tema 2', 'Explicar cómo la digitalización está cambiando los procesos productivos en sectores como la manufactura, la agricultura o los servicios.'),
-('Prueba práctica evaluable Tema 3', 'Implementar una solución digital en una empresa ficticia para gestionar inventarios utilizando un sistema ERP.'),
-('Trabajo práctico Tema 4', 'Diseñar una estrategia de marketing digital para un negocio de e-commerce, utilizando plataformas como Google Ads o redes sociales.'),
-('Evaluación práctica Tema 5', 'Crear un sistema de gestión de datos en la nube para un sector productivo, optimizando la accesibilidad y el control de los datos.'),
-('Examen práctico Tema 1', 'Elaborar una propuesta para hacer más sostenible una empresa de desarrollo web, con énfasis en el consumo de energía y la gestión de residuos electrónicos.'),
-('Examen teórico Tema 2', 'Explicar cómo la sostenibilidad puede ser integrada en los procesos de fabricación y desarrollo de software.'),
-('Prueba práctica evaluable Tema 3', 'Diseñar un sistema informático que ayude a gestionar de forma eficiente el consumo de recursos en una empresa de producción.'),
-('Trabajo práctico Tema 4', 'Elaborar un informe sobre las prácticas sostenibles en la industria tecnológica y cómo pueden aplicarse en el ciclo de vida de un producto.'),
-('Evaluación práctica Tema 5', 'Desarrollar un proyecto de aplicación móvil que promueva prácticas de sostenibilidad y concienciación ecológica en usuarios.');
-
-INSERT INTO tarea (nombre_tarea, descripcion, asignatura) VALUES
 ('Montaje de red local', 'Configurar una red LAN simulando una pequeña empresa.'),
 ('Instalación de SO', 'Instalar y configurar un sistema operativo de escritorio.'),
 ('Gestión de usuarios', 'Crear y gestionar cuentas de usuario en Windows y Linux.'),
@@ -1059,16 +982,15 @@ DELIMITER $$
 
 CREATE PROCEDURE carga_seguimiento()
 BEGIN
-    DECLARE nota DECIMAL(4,2) DEFAULT 0.0;
+    DECLARE nota DECIMAL(4,2);
     DECLARE v_alumno_id INT;
     DECLARE v_asig_mat_id INT;
+    DECLARE v_asignatura_id INT;
     DECLARE v_tarea_id INT;
     DECLARE v_ce_id INT;
-    DECLARE v_asignatura_id INT;
     
     DECLARE fin_alumnos BOOL DEFAULT FALSE;
     DECLARE fin_asignaturas BOOL DEFAULT FALSE;
-    DECLARE fin_tareas BOOL DEFAULT FALSE;
     DECLARE fin_ce BOOL DEFAULT FALSE;
 
     -- Cursor para alumnos
@@ -1104,72 +1026,44 @@ BEGIN
                     LEAVE recorre_asignaturas; 
                 END IF;
 
-                -- Bloque para tareas de la asignatura
-                bloque_tareas: BEGIN
-                    DECLARE tarea_cur CURSOR FOR 
-                        SELECT t.id_tarea
-                        FROM tarea t
-                        JOIN ce ON ce.id_ce IN (
-                            SELECT c.id_ce 
-                            FROM ce c
-                            JOIN ra r ON c.ra = r.id_ra
-                            WHERE r.asignatura = v_asignatura_id
-                        )
-                        WHERE EXISTS (
-                            SELECT 1 
-                            FROM seguimiento s
-                            WHERE s.tarea = t.id_tarea
-                              AND s.ce IN (
-                                SELECT c.id_ce
-                                FROM ce c
-                                JOIN ra r ON c.ra = r.id_ra
-                                WHERE r.asignatura = v_asignatura_id
-                              )
-                        );
+                -- Bloque para CE de la asignatura
+                bloque_ce: BEGIN
+                    DECLARE ce_cur CURSOR FOR 
+                        SELECT id_ce 
+                        FROM ce
+                        JOIN ra ON ce.ra = ra.id_ra
+                        WHERE ra.asignatura = v_asignatura_id;
                         
-                    DECLARE CONTINUE HANDLER FOR NOT FOUND SET fin_tareas = TRUE;
+                    DECLARE CONTINUE HANDLER FOR NOT FOUND SET fin_ce = TRUE;
                     
-                    OPEN tarea_cur;
-                    recorre_tareas: LOOP
-                        FETCH tarea_cur INTO v_tarea_id;
-                        IF fin_tareas THEN 
-                            SET fin_tareas = FALSE;
-                            LEAVE recorre_tareas;
+                    OPEN ce_cur;
+                    recorre_ce: LOOP
+                        FETCH ce_cur INTO v_ce_id;
+                        IF fin_ce THEN 
+                            SET fin_ce = FALSE;
+                            LEAVE recorre_ce;
                         END IF;
 
-                        -- Bloque para criterios de evaluación
-                        bloque_ce: BEGIN
-                            DECLARE ce_cur CURSOR FOR 
-                                SELECT c.id_ce 
-                                FROM ce c
-                                JOIN ra r ON c.ra = r.id_ra
-                                WHERE r.asignatura = v_asignatura_id;
-                                
-                            DECLARE CONTINUE HANDLER FOR NOT FOUND SET fin_ce = TRUE;
-                            
-                            OPEN ce_cur;
-                            recorre_ce: LOOP
-                                FETCH ce_cur INTO v_ce_id;
-                                IF fin_ce THEN 
-                                    SET fin_ce = FALSE;
-                                    LEAVE recorre_ce;
-                                END IF;
-                                
-                                SET nota = ROUND(RAND() * 10, 2);
-                                INSERT INTO seguimiento VALUES (
-                                    NULL, 
-                                    v_tarea_id, 
-                                    v_ce_id, 
-                                    nota, 
-                                    'evaluación automática', 
-                                    v_asig_mat_id
-                                );
-                            END LOOP;
-                            CLOSE ce_cur;
-                        END;
+                        -- Seleccionar una tarea aleatoria (sin vinculación previa)
+                        SELECT id_tarea INTO v_tarea_id
+                        FROM tarea
+                        ORDER BY RAND()  -- Aleatoriedad
+                        LIMIT 1;
 
+                        -- Generar nota solo si existen datos válidos
+                        IF v_tarea_id IS NOT NULL THEN
+                            SET nota = ROUND(RAND() * 10, 2);
+                            INSERT INTO seguimiento VALUES (
+                                NULL, 
+                                v_tarea_id, 
+                                v_ce_id, 
+                                nota, 
+                                'evaluación automática', 
+                                v_asig_mat_id
+                            );
+                        END IF;
                     END LOOP;
-                    CLOSE tarea_cur;
+                    CLOSE ce_cur;
                 END;
 
             END LOOP;
@@ -1183,149 +1077,9 @@ END$$
 
 DELIMITER ;
 
+
 call carga_seguimiento();
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-drop procedure if exists carga_seguimiento;
-
-delimiter $$
-
-create procedure carga_seguimiento()
-begin
-    declare nota decimal(4,2) default 0.0;
-    declare v_alumno_id int;
-    declare v_asig_mat_id int;
-    declare v_tarea_id int;
-    declare v_ce_id int;
-    declare v_asignatura_id int;
-    
-   
-    declare fin_alumnos bool default false;
-    declare fin_asignaturas bool default false;
-    declare fin_tareas bool default false;
-    declare fin_ce bool default false;
-
-
-    declare alumno_cur cursor for 
-        select id_alumno from alumno;
-        
-    declare continue handler for not found set fin_alumnos = true;
-
-    open alumno_cur;
-    recorre_alumnos: loop
-        fetch alumno_cur into v_alumno_id;
-        if fin_alumnos then leave recorre_alumnos; end if;
-
-      
-        block_asignaturas: begin
-            declare asig_mat_cur cursor for 
-                select am.id_asig_mat, ac.asignatura 
-                from asignatura_matricula am
-                join asignatura_curso ac on am.asignatura = ac.id_asig_curso
-                where am.matricula in (
-                    select id_matricula 
-                    from matricula 
-                    where alumno = v_alumno_id
-                );
-                
-            declare continue handler for not found set fin_asignaturas = true;
-            
-            open asig_mat_cur;
-            recorre_asignaturas: loop
-                fetch asig_mat_cur into v_asig_mat_id, v_asignatura_id;
-                if fin_asignaturas then 
-                    set fin_asignaturas = false;
-                    leave recorre_asignaturas; 
-                end if;
-
-               
-                block_tareas: begin
-                    declare tarea_cur cursor for 
-                        select id_tarea, a.id_asignatura
-                        from tarea t
-							join seguimiento s on s.tarea = t.id_tarea
-                            join ce on ce.id_ce = s.ce
-                            join ra on ra.id_ra = ce.ra
-                            join asignatura a on a.id_asignatura = ra.asignatura
-                        where a.id_asignatura = v_asignatura_id;
-                        
-                    declare continue handler for not found set fin_tareas = true;
-                    
-                    open tarea_cur;
-                    recorre_tareas: loop
-                        fetch tarea_cur into v_tarea_id;
-                        if fin_tareas then 
-                            set fin_tareas = false;
-                            leave recorre_tareas;
-                        end if;
-
-                       
-                        block_ce: begin
-                            declare ce_cur cursor for 
-                                select c.id_ce 
-                                from ce c
-                                join ra r on c.ra = r.id_ra
-                                where r.asignatura = v_asignatura_id;
-                                
-                            declare continue handler for not found set fin_ce = true;
-                            
-                            open ce_cur;
-                            recorre_ce: loop
-                                fetch ce_cur into v_ce_id;
-                                if fin_ce then 
-                                    set fin_ce = false;
-                                    leave recorre_ce;
-                                end if;
-                                
-                                set nota = round(rand() * 10, 2);
-                                insert into seguimiento values (
-                                    null, 
-                                    v_tarea_id, 
-                                    v_ce_id, 
-                                    nota, 
-                                    'evaluación automática', 
-                                    v_asig_mat_id
-                                );
-                            end loop;
-                            close ce_cur;
-                        end;
-
-                    end loop;
-                    close tarea_cur;
-                end;
-
-            end loop;
-            close asig_mat_cur;
-        end;
-
-    end loop;
-    close alumno_cur;
-
-end$$
-
-delimiter ;
 
 
 
