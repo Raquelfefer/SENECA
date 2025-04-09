@@ -135,9 +135,7 @@ create table ce (
 create table tarea (
 	id_tarea int primary key auto_increment,
     nombre_tarea varchar (50),
-    descripcion text,
-    asignatura int,
-    constraint fk_asig_tarea foreign key (asignatura) references asignatura (id_asignatura)
+    descripcion text
 );
 
 create table seguimiento (

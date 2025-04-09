@@ -991,95 +991,221 @@ INSERT INTO tarea (nombre_tarea, descripcion) VALUES
 ('Evaluación práctica Tema 5', 'Desarrollar un proyecto de aplicación móvil que promueva prácticas de sostenibilidad y concienciación ecológica en usuarios.');
 
 INSERT INTO tarea (nombre_tarea, descripcion, asignatura) VALUES
--- Sistemas Informáticos
-('Montaje de red local', 'Configurar una red LAN simulando una pequeña empresa.', 1),
-('Instalación de SO', 'Instalar y configurar un sistema operativo de escritorio.', 1),
-('Gestión de usuarios', 'Crear y gestionar cuentas de usuario en Windows y Linux.', 1),
-('Configuración de red', 'Asignar IPs manualmente y verificar la conectividad.', 1),
+('Montaje de red local', 'Configurar una red LAN simulando una pequeña empresa.'),
+('Instalación de SO', 'Instalar y configurar un sistema operativo de escritorio.'),
+('Gestión de usuarios', 'Crear y gestionar cuentas de usuario en Windows y Linux.'),
+('Configuración de red', 'Asignar IPs manualmente y verificar la conectividad.'),
+('Modelado de base de datos', 'Diseñar un modelo entidad-relación para un sistema escolar.'),
+('Consultas SQL básicas', 'Crear SELECTs para extraer información de tablas.'),
+('Normalización de datos', 'Aplicar 1NF, 2NF y 3NF a una base de datos ejemplo.'),
+('Procedimientos almacenados', 'Crear y probar procedimientos en MySQL.'),
+('Juego en Java', 'Crear un juego de adivinanza de números.'),
+('POO básica', 'Crear clases y objetos para un sistema de biblioteca.'),
+('Gestión de excepciones', 'Implementar try/catch en programas con errores comunes.'),
+('Lectura de ficheros', 'Leer y procesar datos desde archivos de texto.'),
+('Formulario HTML', 'Diseñar un formulario de contacto con HTML5.'),
+('Estilos CSS', 'Aplicar estilos a una página con CSS externo.'),
+('Documento XML', 'Crear un archivo XML con información de libros.'),
+('Conversión XML a HTML', 'Usar XSLT para mostrar datos XML en HTML.'),
+('Instalación de IDE', 'Instalar y configurar Visual Studio Code.'),
+('Depuración de código', 'Usar herramientas de depuración en un proyecto Java.'),
+('Gestión de versiones', 'Subir un proyecto a GitHub usando Git.'),
+('Documentación técnica', 'Generar documentación con Javadoc.'),
+('Currículum vitae', 'Crear un CV profesional en formato digital.'),
+('Simulación de entrevista', 'Participar en una entrevista laboral simulada.'),
+('Prevención de riesgos', 'Identificar riesgos en el entorno laboral y cómo evitarlos.'),
+('Derechos laborales', 'Analizar derechos y deberes del trabajador.'),
+('Validación de formularios', 'Validar entradas de usuario con JavaScript.'),
+('Manipulación del DOM', 'Modificar elementos de una página con JS.'),
+('Eventos en JavaScript', 'Capturar y gestionar eventos como clics o teclado.'),
+('Uso de fetch', 'Consumir una API REST usando fetch.'),
+('Formulario con PHP', 'Procesar datos de un formulario HTML con PHP.'),
+('CRUD en PHP', 'Crear, leer, actualizar y eliminar registros en MySQL.'),
+('Autenticación de usuarios', 'Implementar login y registro de usuarios con sesiones.'),
+('Subida de archivos', 'Crear un sistema que permita subir imágenes al servidor.'),
+('Maquetación con Flexbox', 'Diseñar una interfaz adaptable usando Flexbox.'),
+('Accesibilidad web', 'Aplicar buenas prácticas de accesibilidad.'),
+('Prototipo UI', 'Diseñar un prototipo de interfaz en Figma.'),
+('Estilos responsivos', 'Crear una interfaz que se adapte a diferentes pantallas.'),
+('Servidor local', 'Configurar un entorno de servidor local con XAMPP.'),
+('Publicación en hosting', 'Subir una web a un servicio de hosting gratuito.'),
+('Configuración de DNS', 'Asociar un dominio a una aplicación web.'),
+('Automatización de despliegue', 'Crear un script para desplegar una app con Git.'),
+('Plan de empresa', 'Desarrollar un plan básico para una idea de negocio.'),
+('Estudio de mercado', 'Realizar un análisis de competencia y demanda.'),
+('Gestión económica', 'Simular gastos e ingresos de una microempresa.'),
+('Taller de emprendimiento', 'Presentar un pitch de proyecto personal.'),
+('Glosario técnico', 'Crear un glosario con 50 términos informáticos en inglés.'),
+('Lectura de manuales', 'Analizar un manual de software en inglés.'),
+('Traducción técnica', 'Traducir documentación de una librería o API.'),
+('Listening IT', 'Escuchar una conferencia técnica y resumirla.'),
+('Propuesta de proyecto', 'Redactar la idea y objetivos del proyecto final.'),
+('Planificación', 'Establecer un cronograma de trabajo por fases.'),
+('Desarrollo del backend', 'Crear la parte funcional de la app con base de datos.'),
+('Pruebas y presentación', 'Realizar pruebas finales y preparar una demo.'),
+('Diagnóstico digital', 'Evaluar el nivel de digitalización de una empresa.'),
+('Transformación digital', 'Diseñar una propuesta para digitalizar procesos manuales.'),
+('Herramientas en la nube', 'Explorar herramientas como Google Workspace o Microsoft 365.'),
+('Digitalización documental', 'Digitalizar documentos físicos y organizarlos en la nube.'),
+('Huella de carbono TIC', 'Investigar el impacto ambiental de las tecnologías.'),
+('Código verde', 'Escribir código eficiente para reducir consumo de recursos.'),
+('Ecodiseño web', 'Diseñar una página web con criterios ecológicos.'),
+('Concienciación ambiental', 'Crear una campaña digital sobre sostenibilidad.');
 
--- Bases de Datos
-('Modelado de base de datos', 'Diseñar un modelo entidad-relación para un sistema escolar.', 2),
-('Consultas SQL básicas', 'Crear SELECTs para extraer información de tablas.', 2),
-('Normalización de datos', 'Aplicar 1NF, 2NF y 3NF a una base de datos ejemplo.', 2),
-('Procedimientos almacenados', 'Crear y probar procedimientos en MySQL.', 2),
 
--- Programación
-('Juego en Java', 'Crear un juego de adivinanza de números.', 3),
-('POO básica', 'Crear clases y objetos para un sistema de biblioteca.', 3),
-('Gestión de excepciones', 'Implementar try/catch en programas con errores comunes.', 3),
-('Lectura de ficheros', 'Leer y procesar datos desde archivos de texto.', 3),
+DROP PROCEDURE IF EXISTS carga_seguimiento;
 
--- Lenguaje de Marcas
-('Formulario HTML', 'Diseñar un formulario de contacto con HTML5.', 4),
-('Estilos CSS', 'Aplicar estilos a una página con CSS externo.', 4),
-('Documento XML', 'Crear un archivo XML con información de libros.', 4),
-('Conversión XML a HTML', 'Usar XSLT para mostrar datos XML en HTML.', 4),
+DELIMITER $$
 
--- Entornos de Desarrollo
-('Instalación de IDE', 'Instalar y configurar Visual Studio Code.', 5),
-('Depuración de código', 'Usar herramientas de depuración en un proyecto Java.', 5),
-('Gestión de versiones', 'Subir un proyecto a GitHub usando Git.', 5),
-('Documentación técnica', 'Generar documentación con Javadoc.', 5),
+CREATE PROCEDURE carga_seguimiento()
+BEGIN
+    DECLARE nota DECIMAL(4,2) DEFAULT 0.0;
+    DECLARE v_alumno_id INT;
+    DECLARE v_asig_mat_id INT;
+    DECLARE v_tarea_id INT;
+    DECLARE v_ce_id INT;
+    DECLARE v_asignatura_id INT;
+    
+    DECLARE fin_alumnos BOOL DEFAULT FALSE;
+    DECLARE fin_asignaturas BOOL DEFAULT FALSE;
+    DECLARE fin_tareas BOOL DEFAULT FALSE;
+    DECLARE fin_ce BOOL DEFAULT FALSE;
 
--- Itinerario personal para la empleabilidad I
-('Currículum vitae', 'Crear un CV profesional en formato digital.', 6),
-('Simulación de entrevista', 'Participar en una entrevista laboral simulada.', 6),
-('Prevención de riesgos', 'Identificar riesgos en el entorno laboral y cómo evitarlos.', 6),
-('Derechos laborales', 'Analizar derechos y deberes del trabajador.', 6),
+    -- Cursor para alumnos
+    DECLARE alumno_cur CURSOR FOR 
+        SELECT id_alumno FROM alumno;
+        
+    DECLARE CONTINUE HANDLER FOR NOT FOUND SET fin_alumnos = TRUE;
 
--- Desarrollo Web Entorno Cliente
-('Validación de formularios', 'Validar entradas de usuario con JavaScript.', 7),
-('Manipulación del DOM', 'Modificar elementos de una página con JS.', 7),
-('Eventos en JavaScript', 'Capturar y gestionar eventos como clics o teclado.', 7),
-('Uso de fetch', 'Consumir una API REST usando fetch.', 7),
+    OPEN alumno_cur;
+    recorre_alumnos: LOOP
+        FETCH alumno_cur INTO v_alumno_id;
+        IF fin_alumnos THEN LEAVE recorre_alumnos; END IF;
 
--- Desarrollo Web Entorno Servidor
-('Formulario con PHP', 'Procesar datos de un formulario HTML con PHP.', 8),
-('CRUD en PHP', 'Crear, leer, actualizar y eliminar registros en MySQL.', 8),
-('Autenticación de usuarios', 'Implementar login y registro de usuarios con sesiones.', 8),
-('Subida de archivos', 'Crear un sistema que permita subir imágenes al servidor.', 8),
+        -- Bloque para asignaturas matriculadas
+        bloque_asignaturas: BEGIN
+            DECLARE asig_mat_cur CURSOR FOR 
+                SELECT am.id_asig_mat, ac.asignatura 
+                FROM asignatura_matricula am
+                JOIN asignatura_curso ac ON am.asignatura = ac.id_asig_curso
+                WHERE am.matricula IN (
+                    SELECT id_matricula 
+                    FROM matricula 
+                    WHERE alumno = v_alumno_id
+                );
+                
+            DECLARE CONTINUE HANDLER FOR NOT FOUND SET fin_asignaturas = TRUE;
+            
+            OPEN asig_mat_cur;
+            recorre_asignaturas: LOOP
+                FETCH asig_mat_cur INTO v_asig_mat_id, v_asignatura_id;
+                IF fin_asignaturas THEN 
+                    SET fin_asignaturas = FALSE;
+                    LEAVE recorre_asignaturas; 
+                END IF;
 
--- Diseño de Interfaces Web
-('Maquetación con Flexbox', 'Diseñar una interfaz adaptable usando Flexbox.', 9),
-('Accesibilidad web', 'Aplicar buenas prácticas de accesibilidad.', 9),
-('Prototipo UI', 'Diseñar un prototipo de interfaz en Figma.', 9),
-('Estilos responsivos', 'Crear una interfaz que se adapte a diferentes pantallas.', 9),
+                -- Bloque para tareas de la asignatura
+                bloque_tareas: BEGIN
+                    DECLARE tarea_cur CURSOR FOR 
+                        SELECT t.id_tarea
+                        FROM tarea t
+                        JOIN ce ON ce.id_ce IN (
+                            SELECT c.id_ce 
+                            FROM ce c
+                            JOIN ra r ON c.ra = r.id_ra
+                            WHERE r.asignatura = v_asignatura_id
+                        )
+                        WHERE EXISTS (
+                            SELECT 1 
+                            FROM seguimiento s
+                            WHERE s.tarea = t.id_tarea
+                              AND s.ce IN (
+                                SELECT c.id_ce
+                                FROM ce c
+                                JOIN ra r ON c.ra = r.id_ra
+                                WHERE r.asignatura = v_asignatura_id
+                              )
+                        );
+                        
+                    DECLARE CONTINUE HANDLER FOR NOT FOUND SET fin_tareas = TRUE;
+                    
+                    OPEN tarea_cur;
+                    recorre_tareas: LOOP
+                        FETCH tarea_cur INTO v_tarea_id;
+                        IF fin_tareas THEN 
+                            SET fin_tareas = FALSE;
+                            LEAVE recorre_tareas;
+                        END IF;
 
--- Despliegue de Aplicaciones Web
-('Servidor local', 'Configurar un entorno de servidor local con XAMPP.', 10),
-('Publicación en hosting', 'Subir una web a un servicio de hosting gratuito.', 10),
-('Configuración de DNS', 'Asociar un dominio a una aplicación web.', 10),
-('Automatización de despliegue', 'Crear un script para desplegar una app con Git.', 10),
+                        -- Bloque para criterios de evaluación
+                        bloque_ce: BEGIN
+                            DECLARE ce_cur CURSOR FOR 
+                                SELECT c.id_ce 
+                                FROM ce c
+                                JOIN ra r ON c.ra = r.id_ra
+                                WHERE r.asignatura = v_asignatura_id;
+                                
+                            DECLARE CONTINUE HANDLER FOR NOT FOUND SET fin_ce = TRUE;
+                            
+                            OPEN ce_cur;
+                            recorre_ce: LOOP
+                                FETCH ce_cur INTO v_ce_id;
+                                IF fin_ce THEN 
+                                    SET fin_ce = FALSE;
+                                    LEAVE recorre_ce;
+                                END IF;
+                                
+                                SET nota = ROUND(RAND() * 10, 2);
+                                INSERT INTO seguimiento VALUES (
+                                    NULL, 
+                                    v_tarea_id, 
+                                    v_ce_id, 
+                                    nota, 
+                                    'evaluación automática', 
+                                    v_asig_mat_id
+                                );
+                            END LOOP;
+                            CLOSE ce_cur;
+                        END;
 
--- Itinerario personal para la empleabilidad II
-('Plan de empresa', 'Desarrollar un plan básico para una idea de negocio.', 11),
-('Estudio de mercado', 'Realizar un análisis de competencia y demanda.', 11),
-('Gestión económica', 'Simular gastos e ingresos de una microempresa.', 11),
-('Taller de emprendimiento', 'Presentar un pitch de proyecto personal.', 11),
+                    END LOOP;
+                    CLOSE tarea_cur;
+                END;
 
--- Inglés Técnico
-('Glosario técnico', 'Crear un glosario con 50 términos informáticos en inglés.', 12),
-('Lectura de manuales', 'Analizar un manual de software en inglés.', 12),
-('Traducción técnica', 'Traducir documentación de una librería o API.', 12),
-('Listening IT', 'Escuchar una conferencia técnica y resumirla.', 12),
+            END LOOP;
+            CLOSE asig_mat_cur;
+        END;
 
--- Proyecto DAW
-('Propuesta de proyecto', 'Redactar la idea y objetivos del proyecto final.', 13),
-('Planificación', 'Establecer un cronograma de trabajo por fases.', 13),
-('Desarrollo del backend', 'Crear la parte funcional de la app con base de datos.', 13),
-('Pruebas y presentación', 'Realizar pruebas finales y preparar una demo.', 13),
+    END LOOP;
+    CLOSE alumno_cur;
 
--- Digitalización
-('Diagnóstico digital', 'Evaluar el nivel de digitalización de una empresa.', 14),
-('Transformación digital', 'Diseñar una propuesta para digitalizar procesos manuales.',14),
-('Herramientas en la nube', 'Explorar herramientas como Google Workspace o Microsoft 365.', 14),
-('Digitalización documental', 'Digitalizar documentos físicos y organizarlos en la nube.', 14),
+END$$
 
--- Sostenibilidad
-('Huella de carbono TIC', 'Investigar el impacto ambiental de las tecnologías.', 15),
-('Código verde', 'Escribir código eficiente para reducir consumo de recursos.', 15),
-('Ecodiseño web', 'Diseñar una página web con criterios ecológicos.', 15),
-('Concienciación ambiental', 'Crear una campaña digital sobre sostenibilidad.', 15);
+DELIMITER ;
+
+call carga_seguimiento();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 drop procedure if exists carga_seguimiento;
@@ -1137,9 +1263,13 @@ begin
                
                 block_tareas: begin
                     declare tarea_cur cursor for 
-                        select id_tarea 
-                        from tarea 
-                        where asignatura = v_asignatura_id;
+                        select id_tarea, a.id_asignatura
+                        from tarea t
+							join seguimiento s on s.tarea = t.id_tarea
+                            join ce on ce.id_ce = s.ce
+                            join ra on ra.id_ra = ce.ra
+                            join asignatura a on a.id_asignatura = ra.asignatura
+                        where a.id_asignatura = v_asignatura_id;
                         
                     declare continue handler for not found set fin_tareas = true;
                     
@@ -1197,5 +1327,5 @@ end$$
 
 delimiter ;
 
-call carga_seguimiento();
+
 

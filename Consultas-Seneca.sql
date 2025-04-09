@@ -108,7 +108,7 @@ order by nombre_alumno, modulo_profesional;
 -- Muestra el nombre del profesor que tiene la asignatura con mayor número de
 -- suspensos
 
-select pe.nombre, pe.apellido_1, pe.apellido_2
+select concat_ws(' ', pe.nombre, pe.apellido_1, pe.apellido_2) as Nombre_profesor
 from profesor pr
 	join persona pe on pr.id_profesor = pe.id_persona
 	join horario_profe hp on pr.id_profesor = hp.profesor
